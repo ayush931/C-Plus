@@ -14,17 +14,19 @@ using namespace std;
 
 int main () {
     int n;
+    cout << "Total number is: ";
     cin >> n;
     
     int sum=0;
 
     do{
         int num;
+        cout << "Enter the number: ";
         cin >> num;
         sum += num;
         n--;
     } while (n > 0);
-     cout << sum << endl;
+     cout << "Sum of the number is: " << sum << endl;
 
      return 0;
     

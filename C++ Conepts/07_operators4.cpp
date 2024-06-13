@@ -14,12 +14,12 @@ int main () {
     cout << flag << endl; // 0
 
     int c = 6;
-    cout << (c++) << endl; // Post increment operator
+    cout << (c++) << endl; // Post increment operator, 6
 
     int b = 5;
-    cout << (--b) << endl; // Pre decrement operator
+    cout << (--b) << endl; // Pre decrement operator, 4
 
-    int d = c + 6;
+    int d = c + 6; // c is incremented here.
     cout << d << endl; // 13
 
     return 0;

@@ -4,6 +4,7 @@ using namespace std;
 int main () {
     
     int day;
+    cout << "Enter the no in days: ";
     cin >> day;
 
     switch (day) {

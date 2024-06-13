@@ -3,10 +3,11 @@ using namespace std;
 
 int main () {
 
-    char character;
-    cin >> character;
+    char alphabet;
+    cout << "Enter the alphabet: ";
+    cin >> alphabet;
 
-    switch (character) {
+    switch (alphabet) {
 
         case 'a':
         cout << "Vowel" << endl;

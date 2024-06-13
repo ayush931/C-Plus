@@ -1,4 +1,4 @@
-// Convert binary to decimal.
+// Convert binary to number
 
 #include<iostream>
 using namespace std;
@@ -6,6 +6,7 @@ using namespace std;
 int main () {
 
     int n;
+    cout << "Enter the binary number: ";
     cin >> n;
 
     int ans = 0;
@@ -18,7 +19,7 @@ int main () {
         n /= 10;
     }
 
-    cout << ans << endl;
+    cout << "Converted the binary into decimal: " << ans << endl;
 
     return 0;
 }

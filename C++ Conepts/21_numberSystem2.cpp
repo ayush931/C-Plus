@@ -1,9 +1,12 @@
+// Convert number to binary.
+
 #include<iostream>
 using namespace std;
 
 int main () {
 
     int n;
+    cout << "Enter the number: ";
     cin >> n;
 
     int ans = 0;
@@ -16,7 +19,7 @@ int main () {
         n /= 2;
     }
 
-    cout << ans << endl;
+    cout << "Number converted into binary: " << ans << endl;
 
     return 0;
 }

@@ -13,6 +13,7 @@ using namespace std;
 int main () {
     
     int n;
+    cout << "Enter the number: ";
     cin >> n;
 
     int sum = 0;
@@ -21,7 +22,7 @@ int main () {
         sum += i;
     }
 
-    cout << sum << endl;
+    cout << "Sum of the given number is: " << sum << endl;
     
     return 0;
 }
