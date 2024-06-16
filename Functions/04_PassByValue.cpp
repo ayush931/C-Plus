@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void changeValue (int z, int &y) {
+void changeValue (int &z, int &y) {
     z = 100;
     y = 99;
 }
