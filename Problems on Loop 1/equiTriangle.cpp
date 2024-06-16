@@ -4,6 +4,7 @@ using namespace std;
 int main () {
 
     int n;
+    cout << "Print equilateral triangle of size: ";
     cin >> n;
 
     for (int i = 1; i <= n; i++) {

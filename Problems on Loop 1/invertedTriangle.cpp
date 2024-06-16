@@ -3,6 +3,7 @@ using namespace std;
 
 int main () {
     int n;
+    cout << "Size of inverted triangle is: ";
     cin >> n;
 
     for (int i = 1; i <= n; i++) {
