@@ -4,6 +4,9 @@
 
 // Array types:- Single dimensional and multidimensional array.
 
+// Arrays are statics, you cannot change the value of an index after assigning it.
+// You cannot delete the any element from the any index.
+
 #include<iostream>
 using namespace std;
 
