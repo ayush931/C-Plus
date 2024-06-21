@@ -29,9 +29,9 @@ int main () {
     cout << "Enter the no. of queries: " << endl;
     cin >> q;
 
-    cout << "Enter the range from l to r: " << endl;
-
     while (q--) {
+
+        cout << "Enter the range from l to r: " << endl;
 
         int l, r;
         cin >> l >> r;
