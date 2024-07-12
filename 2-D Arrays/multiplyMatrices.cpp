@@ -65,5 +65,6 @@ int main () {
             cout << ansArray[i][j] << " ";
         }
     }
-
+    
+    return 0;
 }
