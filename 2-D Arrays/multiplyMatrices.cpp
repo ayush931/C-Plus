@@ -7,16 +7,16 @@ int main () {
 
     int row1, column1;
 
-    cout << "Enter the row of Array 1: ";
+    cout << "Enter the row of Matrix 1: ";
     cin >> row1;
 
-    cout << "Enter the column of Array 1: ";
+    cout << "Enter the column of Matrix 1: ";
 
     cin >> column1;
 
     int array1[row1][column1];
 
-    cout << "Enter the element of Array 1" << endl;
+    cout << "Enter the element of Matrix 1" << endl;
 
     for (int i = 0; i < row1; i++) {
         for (int j = 0; j < column1; j++) {
@@ -26,15 +26,15 @@ int main () {
 
     int row2, column2;
 
-    cout << "Enter the row of Array 2: ";
+    cout << "Enter the row of Matrix 2: ";
     cin >> row2;
 
-    cout << "Enter the column of Array 2: ";
+    cout << "Enter the column of Matrix 2: ";
     cin >> column2;
 
     int array2[row2][column2];
 
-    cout << "Enter the element of Array 2" << endl;
+    cout << "Enter the element of Matrix 2" << endl;
 
     for (int i = 0; i < row2; i++) {
         for (int j = 0; j < column2; j++) {
@@ -43,7 +43,7 @@ int main () {
     }
 
     if (column1 != row2) {
-        cout << "matrix multiplication is not possible for this input";
+        cout << "Matrix multiplication is not possible for this input";
     }
 
     int ansArray[row1][column2];
@@ -58,7 +58,7 @@ int main () {
         }
     }
 
-    cout << "Multiplication of Array 1 and Array 2: " << endl;
+    cout << "Multiplication of Matrix 1 and Matrix 2: " << endl;
 
     for (int i = 0; i < row1; i++) {
         for (int j = 0; j < column2; j++) {
