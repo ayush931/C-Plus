@@ -25,7 +25,7 @@ int discount_price (int &item_price) {
 
 int main () {
 
-    char item_name;
+    string item_name;
 
     cout << "Enter the name of the item: ";
     cin >> item_name;
