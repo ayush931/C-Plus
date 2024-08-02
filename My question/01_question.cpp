@@ -5,15 +5,15 @@ using namespace std;
 
 int discount_price (int &item_price) {
 
-    int discount = 0;
+    int discount;
 
     if (item_price > 10000) {
         discount = (item_price * 10) / 100;
     }
-    else if (7000 < item_price <= 10000) {
-        discount = (item_price * 70) / 100;
+    else if (item_price > 7000 && item_price <= 10000) {
+        discount = (item_price * 7) / 100;
     }
-    else if (5000 < item_price < 7000) {
+    else if (item_price > 5000 && item_price < 7000) {
         discount = (item_price * 5) / 100;
     }
     else {
