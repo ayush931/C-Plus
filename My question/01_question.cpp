@@ -38,15 +38,15 @@ int main () {
     cout << "Enter the price of the item: ";
     cin >> item_price;
 
-    int current_price = discount_price(item_price);
+    int discounted_price = discount_price(item_price);
 
-    int discount_price = item_price - current_price;
+    int current_price = item_price - discounted_price;
 
     cout << "Your name of item is: " << item_name << endl;
     cout << "Quantity of the item is: " << item_quantity << endl;
     cout << "The price of the item: " << item_price << endl;
-    cout << "Discount given on that item: " << discount_price << endl;
-    cout << "Discounted price of given item is: " << current_price << endl;
+    cout << "Discount given on that item: " << discounted_price << endl;
+    cout << "Current price of given item is: " << current_price << endl;
 
     return 0;
 }
