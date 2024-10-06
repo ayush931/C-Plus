@@ -33,6 +33,8 @@ int main () {
 
     bubbleSort(v);
 
+    cout << "Sorted Array is: \n";
+
     for (int i = 0; i < n; i++) {
         cout << v[i] << " ";
     } cout << endl;
