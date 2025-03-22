@@ -1,10 +1,7 @@
-// used to initialise an object
-// This is function which is called when an object is created
-// same name as class name
-// types -> default, parameterized, copy
+// Function is called when object is deleted
+// Cannot pass any parameters
 
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Rectangle {
@@ -26,12 +23,17 @@ class Rectangle {
     l = r.l;
     b = r.b;
   }
+
+  ~Rectangle() {
+    cout << "Destructor is called  \n";
+  }
 };
 
 int main () {
   
-  Rectangle r1;
-  cout << r1.l << " " << r1.b << endl;
+  Rectangle *r1 = new Rectangle();
+  cout << r1->l << " " << r1->b << endl;
+  delete r1; // calling the destructor
 
   Rectangle r2(3, 5);
   cout << r2.l << " " << r2.b << endl;
